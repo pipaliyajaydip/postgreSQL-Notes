@@ -1,0 +1,42 @@
+-> Login into Database,
+-> -U flag for username
+-> after Enter password of user
+
+psql -U <username>
+
+
+-> List all Database
+
+\l
+\List
+
+-> use Perticular Database
+-> c for connect
+
+\c <Database name>
+\connect 
+
+
+-> display all table of Database
+
+\dt
+\dtable
+
+-> connection info, or verify which database currenty I am using
+
+
+
+\conninfo
+o/p = You are connected to database "Student" as user "postgres" on host "localhost" (address "::1") at port "5432".
+
+or
+
+SELECT * FROM current_database();
+
+
+-> Exit from psql cli
+\q
+\quit
+
+
+
