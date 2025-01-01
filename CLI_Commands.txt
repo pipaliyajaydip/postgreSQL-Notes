@@ -10,7 +10,7 @@ psql -U <username>
 \l
 \List
 
--> use Perticular Database
+-> use Particular Database
 -> c for connect
 
 \c <Database name>
