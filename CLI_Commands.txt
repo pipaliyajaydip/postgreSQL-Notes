@@ -38,5 +38,8 @@ SELECT * FROM current_database();
 \q
 \quit
 
+# To connect perticular on host address
+    ex: psql -h <host address> -p <port> -U <username> -d <database name> 
+    demo: psql -h localhost -p 5001 -U devuser -d devdb
 
 
